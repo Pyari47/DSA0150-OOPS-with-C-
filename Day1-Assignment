@@ -8,6 +8,15 @@ cout<<i;
 solution:
 spelling mistake in "woid" and "inclucle"
 hence the output will show an error
+//Answer
+#include <iostream>
+using namespace std;
+int main(){
+    int i = 0;
+    i=i+1;
+    cout<<i;
+}
+
 
 2.Identify the  error in the following program-*
 #include<iostream.h>.
@@ -21,6 +30,15 @@ solution:
       |         ^~~~~~~~~~~~
 compilation terminated.
 and I is not identified
+//Answer
+#include<iostream>
+using namespace std;
+int main()
+{
+    short i=2500, j=3000;
+    cout<<"i+j"<<i+j;
+}
+
 
 3. What  will happen when you run the foiloiwing program? 
 #Include<iostream.h>
@@ -33,7 +51,18 @@ int modResult-i%jj;
 cout<<modresult;
 }
 solution:-int f=1.0 should be float,i not defined in line 7,syntax error in modResult-i%jj.
-
+//Answer:
+#include<iostream>
+using namespace std;
+int main()
+{
+    int f=1.0, j=5; 
+    int inadResult=0;
+    int divresult=0;
+    int modResult=f%j;
+    cout<<modResult;
+    return 0;
+}
 
 4 Find errors., if any in the following C++ statements
  (a) .couit.<< "x=" x;
