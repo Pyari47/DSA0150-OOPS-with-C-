@@ -1,0 +1,53 @@
+1. Identify the error in the following program.
+#inclucle <iostream.h>
+woid main()
+int i = 0;
+i=i+1;
+cout<<i;
+}
+solution:
+spelling mistake in "woid" and "inclucle"
+hence the output will show an error
+
+2.Identify the  error in the following program-*
+#include<iostream.h>.
+void main()
+{
+Short i=2500, j=3000;
+Cout>>”i+j”>>i+I;
+}
+solution:
+ 1 | #include<iostream.h>.
+      |         ^~~~~~~~~~~~
+compilation terminated.
+and I is not identified
+
+3. What  will happen when you run the foiloiwing program? 
+#Include<iostream.h>
+void main()
+{
+int f=1.0, j=5; 
+int inadResult=0;
+int divresult=0;
+int modResult-i%jj;
+cout<<modresult;
+}
+solution:-int f=1.0 should be float,i not defined in line 7,syntax error in modResult-i%jj.
+
+
+4 Find errors., if any in the following C++ statements
+ (a) .couit.<< "x=" x;
+ solution:- couit is invalid
+b. 	m= 5;// n=10’//s= m
+solution:- valid input no error
+c. cin>>x;>>y;
+solution:-";" should be only at the end of the sentence
+d. cout<<\n “Name”<<name;
+solution:-\n should be in "",hence invalid statement
+e. cout<<”enter the value”>>x;
+solutuion:- << is for cout and >> for cin therefore above statement is invalid
+f.  /* addition */ z=x+y;
+solution:- valid statement
+
+
+
